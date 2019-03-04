@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="095de2a3-3b4f-41c7-b23a-11769a020338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_lessons/lesson_1/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rxjs/first_stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rxjs/in_browser/stream_from_event/stream_event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxjs/simple_streams/stream_from.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxjs/in_browser/stream_from_event/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/rxjs/in_browser/stream_from_event/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxjs/in_browser/stream_from_event/stream_event.js" beforeDir="false" afterPath="$PROJECT_DIR$/rxjs/in_browser/stream_from_event/stream_event.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,28 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rxjs/in_browser/stream_from_event/index.html">
+        <entry file="file://$PROJECT_DIR$/rxjs/simple_streams/stream_interval.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rxjs/in_browser/stream_from_event/index.js">
+        <entry file="file://$PROJECT_DIR$/rxjs/simple_streams/stream_timer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rxjs/in_browser/stream_from_event/stream_event.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="80">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -69,9 +59,14 @@
         <option value="$PROJECT_DIR$/rxjs/first_stream.js" />
         <option value="$PROJECT_DIR$/rxjs/errors_complete_event.js" />
         <option value="$PROJECT_DIR$/rxjs/in_browser/index.html" />
-        <option value="$PROJECT_DIR$/rxjs/in_browser/stream_from_event/stream_event.js" />
         <option value="$PROJECT_DIR$/rxjs/in_browser/stream_from_event/index.html" />
         <option value="$PROJECT_DIR$/rxjs/in_browser/stream_from_event/index.js" />
+        <option value="$PROJECT_DIR$/rxjs/in_browser/stream_from_event/stream_event.js" />
+        <option value="$PROJECT_DIR$/rxjs/in_browser/simple_streams/stream_of.js" />
+        <option value="$PROJECT_DIR$/rxjs/in_browser/simple_streams/stream_from.js" />
+        <option value="$PROJECT_DIR$/rxjs/in_browser/simple_streams/stream_interval.js" />
+        <option value="$PROJECT_DIR$/rxjs/simple_streams/timer.js" />
+        <option value="$PROJECT_DIR$/rxjs/simple_streams/stream_timer.js" />
       </list>
     </option>
   </component>
@@ -104,14 +99,7 @@
               <item name="lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="lessons" type="462c0819:PsiDirectoryNode" />
               <item name="rxjs" type="462c0819:PsiDirectoryNode" />
-              <item name="in_browser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="rxjs" type="462c0819:PsiDirectoryNode" />
-              <item name="in_browser" type="462c0819:PsiDirectoryNode" />
-              <item name="stream_from_event" type="462c0819:PsiDirectoryNode" />
+              <item name="simple_streams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -131,6 +119,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Deniska\Desktop\javaScript\lessons\rxjs" />
       <recent name="C:\Users\Deniska\Desktop\javaScript\lessons\rxjs\in_browser\stream_from_event" />
       <recent name="C:\Users\Deniska\Desktop\javaScript\lessons\node_lessons" />
     </key>
@@ -147,25 +136,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.errors_complete_event.js">
-    <configuration name="errors_complete_event.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rxjs/errors_complete_event.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.stream_range.js">
+    <configuration name="stream_from.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rxjs/simple_streams/stream_from.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="first_stream.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rxjs/first_stream.js" working-dir="$PROJECT_DIR$">
+    <configuration name="stream_interval.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rxjs/simple_streams/stream_interval.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/node_lessons/lesson_1/index.js" working-dir="$PROJECT_DIR$">
+    <configuration name="stream_of.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rxjs/simple_streams/stream_of.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+    <configuration name="stream_range.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rxjs/simple_streams/stream_range.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="stream_timer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rxjs/simple_streams/stream_timer.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.errors_complete_event.js" />
-        <item itemvalue="Node.js.first_stream.js" />
-        <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.stream_range.js" />
+        <item itemvalue="Node.js.stream_timer.js" />
+        <item itemvalue="Node.js.stream_interval.js" />
+        <item itemvalue="Node.js.stream_from.js" />
+        <item itemvalue="Node.js.stream_of.js" />
       </list>
     </recent_temporary>
   </component>
@@ -180,30 +173,30 @@
       <option name="presentableId" value="Default" />
       <updated>1551564318492</updated>
       <workItem from="1551564320567" duration="1912000" />
-      <workItem from="1551633451570" duration="10378000" />
+      <workItem from="1551633451570" duration="17305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12290000" />
+    <option name="totallyTimeSpent" value="19217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -212,6 +205,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.js">
@@ -251,15 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rxjs/in_browser/stream_from_event/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rxjs/in_browser/stream_from_event/stream_event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="80">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -267,6 +279,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxjs/in_browser/stream_from_event/stream_event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxjs/simple_streams/stream_of.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxjs/simple_streams/stream_from.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxjs/simple_streams/stream_interval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rxjs/simple_streams/stream_timer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
