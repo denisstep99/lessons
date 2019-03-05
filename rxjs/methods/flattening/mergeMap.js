@@ -13,5 +13,5 @@ Rx.of('a', 'b', 'c')
         operators.take(10)
     )
     .subscribe(
-        data => console.log('next ' + data)
-    );
+    data => console.log('next ' + data)
+);
